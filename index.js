@@ -546,6 +546,34 @@
 // будет выводить в консоль собщение 'lucky seven is : символ из вашей строки на 7 позиции'.
 // Пример  luckySeven('Hi Masha') => 'lucky seven is : a'
 
-const luckySeven = 'Hi Aleksandr :)'
-console.log('lucky seven is : '+ luckySeven[7])
+// const luckySeven = 'Hi Aleksandr :)'
+// console.log('lucky seven is : '+ luckySeven[7])
 // TASK 2 END
+
+
+
+// 3. Голосуй правильно - спаси страну, некоторые несознательные 
+// граждане еще вредят нашей стране, думают и пытаются голосовать 
+// сами, исправим это fairElections(string) на вход функции 
+// передается строка вида `ФИО проголосовал ДА(НЕТ)`, 
+// нужно обработать эту строку и сделать правильный выбор, 
+// fairElections(`Иванов Иван Иваныч проголосовал НЕТ`) => 
+//  `Иванов Иван Иваныч проголосовал ДА`
+
+let fairElections = "Иванов Иван Иваныч проголосовал НЕТ"
+console.log(fairElections.replace("НЕТ","да"))
+
+
+// Другой вариант:
+// let voise = 'Нет';
+// let name = 'Иванов Иван Иванович'
+ 
+// function fairElections(voise){
+// if (voise !== 'Да') {
+//   console.log('Да');
+// }
+// else 
+//   console.log('Да');
+// }
+// console.log(name + " проголосовал " + voise)
+// TASK 3 END
