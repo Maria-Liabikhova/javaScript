@@ -530,10 +530,22 @@
 // которая при передаче в нее строки будет выводить сообщение 'this is a string', 
 // во всех остальных случая 'error this isn't a string'
 
-const output = isString();
-console.log(output);
+// const output = isString();
+// console.log(output);
 
-function isString(input) {
-  if (typeof input == 'string') return 'this is a string'; 
-  return "error this isn't a string"
-}
+// function isString(input) {
+//   if (typeof input == 'string') return 'this is a string'; 
+//   return "error this isn't a string"
+// }
+// TASK 1 END
+
+
+
+
+// 2. Счастливая семерка, реализуйте функцию luckySeven(el), при передачу в которую она 
+// будет выводить в консоль собщение 'lucky seven is : символ из вашей строки на 7 позиции'.
+// Пример  luckySeven('Hi Masha') => 'lucky seven is : a'
+
+const luckySeven = 'Hi Aleksandr :)'
+console.log('lucky seven is : '+ luckySeven[7])
+// TASK 2 END
