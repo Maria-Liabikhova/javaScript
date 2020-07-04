@@ -544,7 +544,7 @@
 
 // 2. Счастливая семерка, реализуйте функцию luckySeven(el), при передачу в которую она 
 // будет выводить в консоль собщение 'lucky seven is : символ из вашей строки на 7 позиции'.
-// Пример  luckySeven('Hi Masha') => 'lucky seven is : a'
+// Пример  luckySeven('Hi Masha') => 'lucky seven is : h'
 
 // const luckySeven = 'Hi Aleksandr :)'
 // console.log('lucky seven is : '+ luckySeven[7])
@@ -585,11 +585,26 @@
 // `ФИО проголосовал ДА и получил дополнительную прибавку к пенсии 23 руб 30 копеек.`, если проголосовал НЕТ => 
 // `ФИО проголосовал ДА, и получил штраф 5 тыс руб за нарушение общественного порядка при голосовании`.
 
-let rewardRightChoice = 'ДА'
+// let rewardRightChoice = 'ДА'
 
-if (rewardRightChoice === 'ДА'){
-  console.log('прибавка к пенсии 23 руб 30 копеек')
-}
-else
-  console.log('штраф 5 тыс руб за нарушение общественного порядка при голосовании')
+// if (rewardRightChoice === 'ДА'){
+//   console.log('прибавка к пенсии 23 руб 30 копеек')
+// }
+// else
+//   console.log('штраф 5 тыс руб за нарушение общественного порядка при голосовании')
 // TASK 4 END
+
+
+
+// РАБОТА НАД ОШИБКАМИ
+// 2. Счастливая семерка, реализуйте функцию luckySeven(el), при передачу в которую она 
+// будет выводить в консоль собщение 'lucky seven is : символ из вашей строки на 7 позиции'.
+// Пример  luckySeven('Hi Masha') => 'lucky seven is : h'
+
+
+let message = "Hi Aleksandr :)"
+function luckySeven () {
+  console.log('lucky seven is : '+ message[6])
+}
+let kol = luckySeven()
+  // TASK 2 END
