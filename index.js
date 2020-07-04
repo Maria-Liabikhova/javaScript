@@ -602,9 +602,23 @@
 // Пример  luckySeven('Hi Masha') => 'lucky seven is : h'
 
 
-let message = "Hi Aleksandr :)"
-function luckySeven () {
-  console.log('lucky seven is : '+ message[6])
+// let message = "Hi Aleksandr :)"
+// function luckySeven () {
+//   console.log('lucky seven is : '+ message[6])
+// }
+// luckySeven()
+// TASK 2 END
+
+luckySeven("Hi Aleksandr :)")
+function luckySeven (message) {
+  return console.log('lucky seven is : '+ (message)[6])
 }
-let kol = luckySeven()
-  // TASK 2 END
+// TASK 2 END
+
+
+luckySeven("Hi Aleksandr :)")
+function luckySeven (message) {
+  console.log('lucky seven is : '+ (message)[6])
+  return true
+}
+// TASK 2 END
