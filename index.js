@@ -609,16 +609,41 @@
 // luckySeven()
 // TASK 2 END
 
-luckySeven("Hi Aleksandr :)")
-function luckySeven (message) {
-  return console.log('lucky seven is : '+ (message)[6])
-}
+// luckySeven("Hi Aleksandr :)")
+// function luckySeven (message) {
+//   return console.log('lucky seven is : '+ (message)[6])
+// }
 // TASK 2 END
 
 
-luckySeven("Hi Aleksandr :)")
-function luckySeven (message) {
-  console.log('lucky seven is : '+ (message)[6])
-  return true
-}
+// luckySeven("Hi Aleksandr :)")
+// function luckySeven (message) {
+//   console.log('lucky seven is : '+ (message)[6])
+//   return true
+// }
 // TASK 2 END
+
+
+
+
+// РАБОТА НАД ОШИБКАМИ
+// 3. Голосуй правильно - спаси страну, некоторые несознательные 
+// граждане еще вредят нашей стране, думают и пытаются голосовать 
+// сами, исправим это fairElections(string) на вход функции 
+// передается строка вида `ФИО проголосовал ДА(НЕТ)`, 
+// нужно обработать эту строку и сделать правильный выбор, 
+// fairElections(`Иванов Иван Иваныч проголосовал НЕТ`) => 
+//  `Иванов Иван Иваныч проголосовал ДА`
+
+let voise = 'Нет';
+let name = 'Иванов Иван Иванович'
+ 
+function fairElections(voise){
+if (voise !== 'Да') {
+  console.log('Да');
+}
+else 
+  console.log('Да');
+}
+console.log(name + " проголосовал " + voise)
+// TASK 3 END
