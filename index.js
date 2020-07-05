@@ -635,15 +635,9 @@
 // fairElections(`Иванов Иван Иваныч проголосовал НЕТ`) => 
 //  `Иванов Иван Иваныч проголосовал ДА`
 
-let voise = 'Нет';
-let name = 'Иванов Иван Иванович'
- 
-function fairElections(voise){
-if (voise !== 'Да') {
-  console.log('Да');
+
+fairElections("Иванов Иван Иваныч проголосовал НЕТ")
+function fairElections(message){
+  return console.log((message).replace("НЕТ", "да"))
 }
-else 
-  console.log('Да');
-}
-console.log(name + " проголосовал " + voise)
 // TASK 3 END
